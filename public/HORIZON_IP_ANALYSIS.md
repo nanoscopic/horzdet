@@ -6,7 +6,7 @@
 **Repository examined:** `horizon-rust/horizon`, default branch `main`, HEAD `68a348299e7e1f3f231397fa459936fc50084f26` (2026-11-02)
 **Game artifacts examined:** official Mojang `26.3` client and server JARs, SHA-1 verified against the project's own `research-lock.json`
 **Decompiler:** Vineflower 1.12.0 (the version the project itself pins)
-**Copyright:** © 2026 Chaos Monkey
+**Copyright:** © 2026 Chaos Monkey — CC0 1.0
 
 > **Status of this document.** This is a technical findings memo, not legal advice, and not a legal opinion. It is written to be handed to counsel as a factual foundation. It separates what was *observed* from what counsel may *argue*. Nothing here has been tested in court. The author is not a lawyer.
 
@@ -1503,4 +1503,4 @@ There is also a second, simpler defect. The repository ports OpenJDK's `java.lan
 
 ---
 
-© 2026 Chaos Monkey. Quotations remain under their owners' terms.
+© 2026 Chaos Monkey. Released under CC0 1.0. Quotations remain under their owners' terms.

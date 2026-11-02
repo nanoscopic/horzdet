@@ -36,6 +36,8 @@ Short quotations from third-party code are used for commentary, criticism and an
 - The legal conclusions are theories for counsel, not opinions. Verify with a lawyer.
 - This is a point-in-time analysis of commit `68a348299e7e1f3f231397fa459936fc50084f26` (2026-11-02). Corrections are welcome as issues.
 
-## Copyright
+## Copyright and licence
 
-The original text of this report is copyright © 2026 **Chaos Monkey** ([COPYRIGHT](COPYRIGHT)). Quotations remain under their owners' terms. No licence is granted for third-party material.
+The original text of this report is copyright © 2026 **Chaos Monkey** and is dedicated to the public domain under [CC0 1.0 Universal](LICENSE). You may copy, modify, and distribute it for any purpose without asking.
+
+Quotations from third-party code remain the property of their respective owners and are not covered by this dedication.
