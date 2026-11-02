@@ -6,6 +6,7 @@
 **Repository examined:** `horizon-rust/horizon`, default branch `main`, HEAD `68a348299e7e1f3f231397fa459936fc50084f26` (2026-11-02)
 **Game artifacts examined:** official Mojang `26.3` client and server JARs, SHA-1 verified against the project's own `research-lock.json`
 **Decompiler:** Vineflower 1.12.0 (the version the project itself pins)
+**Copyright:** © 2026 Chaos Monkey
 
 > **Status of this document.** This is a technical findings memo, not legal advice, and not a legal opinion. It is written to be handed to counsel as a factual foundation. It separates what was *observed* from what counsel may *argue*. Nothing here has been tested in court. The author is not a lawyer.
 
@@ -1499,3 +1500,7 @@ There is also a second, simpler defect. The repository ports OpenJDK's `java.lan
 ## 11. Corrections
 
 - **2026-11-02 — Perlin gradient table.** §4.1(a) originally treated the 16-entry table, including the four repeated directions, as a Minecraft-specific fingerprint. That was wrong. Ken Perlin's published improved-noise reference and GPU Gems chapter 5 document the same 16-slot table and the four repeats; the duplicates exist so a 4-bit hash can index 16 slots. The table is excluded from the evidence. §4.1 now rests on the constructor's draw order, the `wrap` boundary, the `1.0E-7F` fudge, and the `NormalNoise` constants. (Flagged by external review.)
+
+---
+
+© 2026 Chaos Monkey. Quotations remain under their owners' terms.

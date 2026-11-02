@@ -3,6 +3,7 @@
 Last updated: 2 November 2026
 Repository: `horizon-rust/horizon` @ `68a348299e7e1f3f231397fa459936fc50084f26`
 Memo: `HORIZON_IP_ANALYSIS.md`
+**Copyright:** © 2026 Chaos Monkey.
 
 ## Status
 
