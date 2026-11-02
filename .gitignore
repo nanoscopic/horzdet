@@ -1,0 +1,23 @@
+# Publish only the report folder. Everything else in this workspace is
+# private research material: decompiled Minecraft/OptiFine, cloned projects,
+# jars, and the pre-removal Horizon shader crate.
+/*
+!/.gitignore
+!/README.md
+!/public/
+!/public/**
+
+# Belt and braces: never track third-party code or decompiled artifacts.
+*.jar
+*.class
+*.zip
+*.tar.gz
+*.java
+analysis/
+horizon-repo/
+iris-repo/
+yungs-api-repo/
+lithostitched-repo/
+optifine-repo/
+publish/
+public-report/

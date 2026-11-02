@@ -1,0 +1,12 @@
+# Safety net: never publish third-party code or decompiled source.
+*.jar
+*.class
+*.zip
+*.tar.gz
+*.java
+analysis/
+horizon-repo/
+iris-repo/
+yungs-api-repo/
+lithostitched-repo/
+optifine-repo/
